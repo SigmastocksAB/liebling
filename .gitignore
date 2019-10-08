@@ -11,3 +11,6 @@ npm-debug.log
 node_modules
 
 .DS_Store
+
+# Make sure we don't accidentally push our commercial fonts to a public repo
+src/sass/fonts
