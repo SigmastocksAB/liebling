@@ -1,5 +1,17 @@
 /** Colors */
 $white: #fff;
+$light-grey: #FCFCFC; // Footer, background
+$grey: #5C5C5C; // Body
+$dark-grey: #2B2B2B; // Headings
+$darker-grey: #222222; // Tags, author name
+$turquoise: #9ACFC3;
+
+/* Shadow and highlight colors */
+$turquoise-shadow: #9ACFC366;
+$grey-shadow: #7474741A;
+
+
+$white: #fff;
 $black: #000;
 $main-color: #04aeee;
 $titles: #333;
@@ -7,6 +19,8 @@ $body: #4a4a4a;
 $light-blue: #f4f8fd;
 $dark-blue: #293951;
 $gray: #9b9b9b;
+
+
 
 /** Box Model  */
 $mobile-space: 20px;

@@ -27,6 +27,7 @@
       letter-spacing: 0.3px;
       font-size: 1.125rem;
       margin-bottom: 15px;
+      font-family: 'sofia-pro', Arial, Helvetica, sans-serif;
 
       @include respond-to('medium') {
         margin-bottom: 0;

@@ -71,6 +71,7 @@
   font-size: 1.125rem;
   font-weight: 400;
   margin: 0 0 15px;
+  font-family: 'sofia-pro', Arial, Helvetica, sans-serif;
 
   @include respond-to('medium') {
     letter-spacing: 0.3px;

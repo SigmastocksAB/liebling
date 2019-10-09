@@ -21,6 +21,7 @@
     font-weight: 700;
     padding-top: 5px;
     margin: 0 0 30px;
+    font-family: 'sofia-pro', Arial, Helvetica, sans-serif;
 
     @include respond-to('medium') {
       padding-top: 10px;
