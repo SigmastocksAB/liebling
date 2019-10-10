@@ -1,6 +1,14 @@
 .m-footer {
   flex-shrink: 0;
   background-color: var(--foter-background-color);
+  background-size: 12rem;
+  background-position: bottom 2.5rem center;
+  padding-bottom: 6rem; //To add space for the logo
+  @include respond-to('medium') {
+    background-size: 16rem;
+    background-position: bottom 2rem right 3rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .m-footer__content {
