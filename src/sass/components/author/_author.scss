@@ -91,6 +91,6 @@
 
   @include respond-to('medium') {
     font-size: 1.125rem;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 }

@@ -8,19 +8,20 @@
 
   @include respond-to('medium') {
     letter-spacing: 0.5px;
-    font-size: 2.250rem;
+    font-size: 4rem;
     margin-bottom: 15px;
   }
 
   &.in-post {
+    font-weight: 400;
     letter-spacing: 0.5px;
     font-size: 2rem;
     margin-bottom: 15px;
 
     @include respond-to('medium') {
       letter-spacing: 0.7px;
-      font-size: 2.625rem;
-      margin-bottom: 20px;
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
     }
   }
 

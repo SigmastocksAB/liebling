@@ -5,6 +5,7 @@
   letter-spacing: 0.2px;
   font-size: 0.875rem;
   font-weight: 600;
+  flex-wrap: wrap;
 
   @include respond-to('medium') {
     font-size: 1rem;
@@ -18,6 +19,15 @@
 
 .m-heading__meta__tag {
   text-decoration: none !important;
+  background-color: white;
+  padding: 0.5em 1.25em;
+  box-shadow: var(--tag-shadow-normal);
+  border-radius: 10px;
+  margin: 0.5rem;
+  @include transition(all .25s cubic-bezier(.02,.01,.47,1));
+  &:hover {
+    box-shadow: var(--tag-shadow-hover);
+  }
 }
 
 .m-heading__meta__divider {
