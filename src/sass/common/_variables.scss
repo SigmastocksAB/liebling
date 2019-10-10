@@ -1,25 +1,23 @@
 /** Colors */
 $white: #fff;
-$light-grey: #FCFCFC; // Footer, background
-$grey: #5C5C5C; // Body
-$dark-grey: #2B2B2B; // Headings
-$darker-grey: #222222; // Tags, author name
-$turquoise: #9ACFC3;
+$black: #000;
+
+/** Approximate Material Design color codes, 
+to keep track of the different hues */
+$grey-50: #FCFCFC; 
+$grey-100: #f3f3f3; //Footer
+$grey-500: #9b9b9b;
+$grey-700: #5C5C5C; // Body
+$grey-900: #2B2B2B; // Headings
+$grey-950: #222222; // Tags, author name
+
+$trusted-green: #00704a;
+$trusted-green-dark: #29514a;
+
 
 /* Shadow and highlight colors */
-$turquoise-shadow: #9ACFC366;
+$trusted-green-shadow: rgba(154, 207, 181, 0.4);
 $grey-shadow: #7474741A;
-
-
-$white: #fff;
-$black: #000;
-$main-color: #04aeee;
-$titles: #333;
-$body: #4a4a4a;
-$light-blue: #f4f8fd;
-$dark-blue: #293951;
-$gray: #9b9b9b;
-
 
 
 /** Box Model  */

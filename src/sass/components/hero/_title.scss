@@ -1,10 +1,11 @@
 .m-hero-title {
-  color: $titles;
+  color: $grey-900;
   letter-spacing: 0.4px;
   line-height: 1.3;
   font-size: 1.750rem;
-  font-weight: 700;
-  margin: 0 0 15px;
+  font-weight: 400;
+  margin: 0 0 15px;  
+  font-family: 'sofia-pro', Arial, Helvetica, sans-serif;
 
   @include respond-to('medium') {
     letter-spacing: 0.5px;
@@ -14,10 +15,9 @@
   &.bigger {
     letter-spacing: 0.5px;
     font-size: 2rem;
-
     @include respond-to('medium') {
       letter-spacing: 0.8px;
-      font-size: 3.250rem;
+      font-size: 4.25rem;
       margin-bottom: 10px;
     }
   }

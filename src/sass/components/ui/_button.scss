@@ -1,6 +1,6 @@
 .m-button {
   display: inline-block;
-  color: $titles;
+  color: $grey-900;
   text-align: center;
   letter-spacing: 0.2px;
   line-height: 1;
@@ -16,7 +16,7 @@
   @include transition(all .25s cubic-bezier(.02,.01,.47,1));
 
   &.outlined {
-    border: 1px solid $body;
+    border: 1px solid $grey-700;
   }
 
   &.filled,
@@ -41,6 +41,6 @@
 
   &.primary {
     color: $white;
-    background-color: $main-color;
+    background-color: $trusted-green;
   }
 }

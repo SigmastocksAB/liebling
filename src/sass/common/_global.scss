@@ -5,12 +5,12 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  color: $body;
+  color: $grey-700;
   font-size: 1rem;
   font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
   font-display: swap;
   overflow-x: hidden;
-  background-color: white;
+  background-color: $grey-50;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -56,17 +56,17 @@ fieldset {
 }
 
 ::-webkit-input-placeholder {
-  color: $gray;
+  color: $grey-500;
 }
 
 ::-moz-placeholder {
-  color: $gray;
+  color: $grey-500;
 }
 
 :-ms-input-placeholder {
-  color: $gray;
+  color: $grey-500;
 }
 
 :-moz-placeholder {
-  color: $gray;
+  color: $grey-500;
 }
