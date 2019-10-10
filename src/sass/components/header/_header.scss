@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 4;
   background-color: $white;
+  @include bs(0 4px 8px rgba(0, 0, 0, 0.05)); //TODO Erik bara i &.fixed i nästa version
 
   @include respond-to('medium') {
     padding: 20px 0;
@@ -14,7 +15,6 @@
     position: fixed;
     opacity: 0;
     @include transform(translateY(-100%));
-    @include bs(0 4px 8px rgba(0, 0, 0, 0.05));
     @include transition(transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1));
 
     .m-header__shadow {

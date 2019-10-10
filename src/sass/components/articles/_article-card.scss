@@ -6,7 +6,7 @@
   height: 400px;
   background-color: $white;
   border-radius: 10px;
-  border: 1px solid aliceblue;
+  border: 1px solid $grey-100;
   z-index: 1;
   @include transition(all .25s cubic-bezier(.02,.01,.47,1));
 

@@ -4,8 +4,8 @@
   height: 90px;
 
   @include respond-to('medium') {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
 
   div {
