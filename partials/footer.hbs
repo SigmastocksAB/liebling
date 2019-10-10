@@ -4,26 +4,48 @@ This footer template is shared across all the pages.
 
 <footer class="m-footer">
   <div class="m-footer__content">
-    <p class="m-footer-copyright">
-      <span>{{@site.title}} &copy; {{date format="YYYY"}}</span>
-      <span>&nbsp; &bull; &nbsp;</span>
-      <span>{{t "Published with"}} <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a></span>
-    </p>
 
-    <nav class="m-footer-social">
-      {{#if @site.facebook}}
-        <a href="{{facebook_url @site.facebook}}" target="_blank" rel="noopener" aria-label="Facebook">
-          <span class="icon-facebook"></span>
-        </a>
-      {{/if}}
-      {{#if @site.twitter}}
-        <a href="{{twitter_url @site.twitter}}" target="_blank" rel="noopener" aria-label="Twitter">
-          <span class="icon-twitter"></span>
-        </a>
-      {{/if}}
-    </nav>
-    <p class="m-footer-copyright jslicense">
-      <a href="{{asset "html/javascript.html"}}" rel="jslicense">{{t "JavaScript license information"}}</a>
-    </p>
+    <div class="m-footer__links">
+      <h3 class="m-footer__heading">Kom igång</h3>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/sigmastocks-aktieskola">Sigmastocks aktieskola</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/sigmastocks-aktieverktyg">Sigmastocks aktieverktyg</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/priser">Priser</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/sa-funkar-det">Så funkar det</a>
+    </div>
+
+    <div class="m-footer__links">
+      <h3 class="m-footer__heading">Sigmastocks</h3>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/pressida">Pressida</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/blogg">Blogg</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/om-oss">Om oss</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/bli-ekonomiskt-fri">Bli ekonomiskt fri</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/vanliga-fragor">Vanliga frågor</a>
+    </div>
+  
+    <div class="m-footer__links">
+      <h3 class="m-footer__heading">Kontakt</h3>
+      <a class="m-footer__link" href="mailto:partner@sigmastocks.com">Partner</a>
+      <a class="m-footer__link" href="mailto:investor@sigmastocks.com">Investor</a>
+      <a class="m-footer__link" href="mailto:media@sigmastocks.com">Media</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/jobba-hos-oss">Jobba hos oss</a>
+      <a class="m-footer__link" href="https://www.sigmastocks.com/sv/vanliga-fragor#contact">Kundsupport</a>
+    </div>
+    
+    <div class="m-footer__links">
+      <h3 class="m-footer__heading">Följ oss</h3>
+      <a class="m-footer__link" href="https://www.facebook.com/sigmastocks/">Facebook</a>
+      <a class="m-footer__link" href="https://www.instagram.com/sigmastocks/">Instagram</a>
+      <a class="m-footer__link" href="https://www.linkedin.com/company/sigmastocks/">LinkedIn</a>
+    </div>
+
+    <div class = "m-footer__copyright">
+      <span>Copyright &copy; {{date format="YYYY"}} Sigmastocks</span>
+    </div>
+    <div class = "m-footer__integrity">
+       <a class= "m-footer__link" href="https://www.sigmastocks.com/sv/integritetspolicy">Integritetspolicy</a>
+    </div>
+    <div class = "m-footer__terms">
+       <a class= "m-footer__link" href="https://www.sigmastocks.com/sv/anvandarvillkor">Användarvillkor</a>
+    </div>
   </div>
 </footer>
