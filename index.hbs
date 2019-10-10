@@ -62,8 +62,6 @@ into the {body} of the default.hbs template --}}
                     <a href="{{url}}" class="m-featured-article__content">
                       <h1 class="m-featured-article__title">{{title}}</h1>
                       <div class="m-featured-article__timestamp">
-                        <span>{{date published_at timeago="true"}}</span>
-                        <span>&bull;</span>
                         <span>{{reading_time minute=(t "1 min read") minutes=(t "% min read")}}</span>
                       </div>
                     </a>
