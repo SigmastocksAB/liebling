@@ -48,6 +48,10 @@
   color: var(--footer-link-color);
   display: block;
   padding-bottom: 0.75em;
+  @include transition(color .1s cubic-bezier(.02,.01,.47,1));
+  &:hover {
+    color: var(--footer-link-color-hover);
+  }
 }
 
 .rtl {
