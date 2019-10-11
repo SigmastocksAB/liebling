@@ -4,13 +4,10 @@
   left: 0;
   width: 100%;
   z-index: 4;
-  background-color: var(--background-color);
+  height: 6.5rem;
+  background-color: var(--header-background-color);
   will-change: transform;
   @include transition(transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1));
-
-  @include respond-to('medium') {
-    padding: 20px 0;
-  }
 
   &.headroom--pinned {
     @include bs(0 4px 8px rgba(0, 0, 0, 0.05));
@@ -26,7 +23,7 @@
   }
 
   &.submenu-is-active {
-    background-color: var(--background-color);
+    background-color: var(--header-background-color);
 
     .m-header__shadow {
       display: none;
@@ -34,6 +31,6 @@
   }
 
   &.with-picture {
-    background-color: var(--background-color);
+    background-color: var(--header-background-color);
   }
 }
