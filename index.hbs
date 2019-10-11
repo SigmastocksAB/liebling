@@ -26,7 +26,21 @@ into the {body} of the default.hbs template --}}
       </form>
       <div class="js-search-results hide"></div>
       <p class="m-no-found align-center hide js-no-results">{{t "No results for your search, try something different."}}</>
-    </div>  
+    </div>
+    <div class="m-tags index l-wrapper">
+          <h2>{{t "Tags"}}</h2>
+          {{#get "tags" limit="10"}}
+            <ul>
+              {{#foreach tags}}
+                <li>
+                  <a href="{{url}}">{{name}}</a>
+                </li>
+              {{else}}
+                <li class="m-no-found">{{t "No tags found :("}}</li>
+              {{/foreach}}
+            </ul>
+          {{/get}}
+        </div>  
   </div>
   </section>
   
