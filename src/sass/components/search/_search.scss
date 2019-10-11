@@ -22,7 +22,7 @@
 }
 
 .m-search__content {
-  padding: 80px $mobile-space 40px;
+  padding: 1rem $mobile-space 1rem;
   margin: 0 auto;
   
   @include respond-to('medium') {

@@ -4,12 +4,15 @@
   left: 0;
   width: 100%;
   z-index: 4;
-  height: 6.5rem;
   background-color: var(--header-background-color);
   will-change: transform;
   @include transition(transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1));
   @include bs(0 4px 8px rgba(0, 0, 0, 0.05)); //TODO Erik: bara i --pinned i nästa release
 
+  @include respond-to('medium') {
+    height: 6.5rem;
+  }
+  
   &.headroom--pinned {
    
     @include transform(translateY(0%));
