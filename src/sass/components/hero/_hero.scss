@@ -4,12 +4,11 @@
   min-height: 365px;
   overflow: hidden;
   padding: 100px 0 75px;
-  background-color: var(--background-color);
   @extend .content-centered;
 
   @include respond-to('medium') {
     min-height: 400px;
-    padding: 150px 0 75px;
+    padding: 12rem 0 4rem;
   }
 
   &.with-picture {

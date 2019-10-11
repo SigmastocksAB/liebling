@@ -1,5 +1,6 @@
 :root {
-  --background-color: #fff;
+  --background-color: #fcfcfc;
+  --post-background-color: #fff;
   --primary-foreground-color: #5C5C5C;
   --secondary-foreground-color: #222222;
   --primary-subtle-color: #00704a;
@@ -23,6 +24,8 @@
   --submenu-shadow-color-opacity: 0.25;
   --button-shadow-color-normal: rgba(108, 108, 108, 0.2);
   --button-shadow-color-hover: rgba(108, 108, 108, 0.3);
+  --input-background-color: #fff;
+  --icon-button-background-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {

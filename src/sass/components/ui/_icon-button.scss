@@ -15,7 +15,7 @@
   }
 
   &.filled {
-    background-color: var(--background-color);
+    background-color: var(--icon-button-background-color);
     border-radius: 50%;
     @include bs(0 2px 4px var(--button-shadow-color-normal));
     @include transition(all .25s cubic-bezier(.02,.01,.47,1));

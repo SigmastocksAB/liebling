@@ -4,7 +4,7 @@
   position: relative;
   margin-bottom: 20px;
   height: 400px;
-  background-color: var(--background-color);
+  background-color: var(--post-background-color);
   border-radius: 10px;
   border: 1px solid var(--secondary-border-color);
   z-index: 1;
@@ -191,7 +191,7 @@
   height: 200px;
   overflow: hidden;
   border-radius: 0 0 10px 10px;
-  background-color: var(--background-color);
+  background-color: var(--post-background-color);
 
   @include respond-to('medium') {
     padding-top: 53px;

@@ -270,13 +270,13 @@
       height: 10px;
       border-radius: 50%;
       background-color: var(--secondary-subtle-color);
-      @include bs(0 0 0 10px var(--background-color));
+      @include bs(0 0 0 10px var(--post-background-color));
       @include transform(translate(-50%,-50%));
 
       @include respond-to('medium') {
         width: 12px;
         height: 12px;
-        @include bs(0 0 0 20px var(--background-color));
+        @include bs(0 0 0 20px var(--post-background-color));
       }
     }
   }
@@ -420,7 +420,7 @@
     width: 100%;
     padding: 0 !important;
     margin: 30px auto !important;
-    background: var(--background-color);
+    background: var(--post-background-color);
 
     @include respond-to('medium') {
       margin: 40px auto !important;

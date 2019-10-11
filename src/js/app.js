@@ -155,7 +155,6 @@ $(document).ready(() => {
           <article class="m-result">\
             <a href="${results[i].url}" class="m-result__link">\
               <h3 class="m-result__title">${results[i].title}</h3>\
-              <span class="m-result__date">${formatDate(results[i].published_at)}</span>\
             </a>\
           </article>`
         }

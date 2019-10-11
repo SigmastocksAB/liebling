@@ -6,9 +6,11 @@
   width: 100%;
   border-radius: 5px;
   padding: 11px 15px;
-  border: 1px solid var(--primary-border-color);
+  border: none;
+  box-shadow: 2px 2px 15px #7474741A;
+  border-radius: 14px;
   outline: 0;
-  background-color: var(--background-color);
+  background-color: var(--input-background-color);
   @extend .no-appearance;
 
   &.in-search {

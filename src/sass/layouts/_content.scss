@@ -1,5 +1,8 @@
 .l-content {
   padding: 40px 0 20px;
+  &.in-post{
+    background-color: var(--post-background-color);
+  }
 
   @include respond-to('medium') {
     padding: 60px 0 40px;
