@@ -2,7 +2,7 @@
   display: inline-block;
   height: 25px;
   @include respond-to('medium') {
-    height: 3rem;
+    height: 2rem;
   }
 
   img {
