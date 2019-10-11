@@ -5,10 +5,17 @@
 
     li {
       letter-spacing: 0.2px;
-      font-size: 0.875rem;
+      font-size: 1rem;
       font-weight: 600;
-      margin-right: 30px;
+      margin-right: 1rem;
       margin-bottom: 10px !important;
+      padding: 0.5em 1.25em;
+      border-radius: 10px;
+      box-shadow: var(--tag-shadow-normal);
+      @include transition(box-shadow .25s cubic-bezier(.02,.01,.47,1));
+      &:hover {
+        box-shadow: var(--tag-shadow-hover);
+      }
 
       &:last-of-type {
         margin-right: 0;

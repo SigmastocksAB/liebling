@@ -24,7 +24,7 @@
   box-shadow: var(--tag-shadow-normal);
   border-radius: 10px;
   margin: 0.5rem;
-  @include transition(all .25s cubic-bezier(.02,.01,.47,1));
+  @include transition(box-shadow .25s cubic-bezier(.02,.01,.47,1));
   &:hover {
     box-shadow: var(--tag-shadow-hover);
   }
