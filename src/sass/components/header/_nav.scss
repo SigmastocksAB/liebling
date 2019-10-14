@@ -65,13 +65,14 @@
       margin: 0;
     }
     &:last-of-type {
-      margin-bottom: 2rem;
       @include respond-to('medium') {
-        margin-bottom: 0;
         margin-left: 1rem;
       }
     }
-
+  }
+  margin-bottom: 1rem;
+  @include respond-to('medium') {
+    margin-bottom: 0;
   }
 }
 
