@@ -28,9 +28,12 @@ into the {body} of the default.hbs template --}}
       <p class="m-no-found align-center hide js-no-results">{{t "No results for your search, try something different."}}</>
     </div>
     <div class="m-tags index l-wrapper">
+        <div class = "m-tags-heading js-tag-heading">
           <h2>{{t "Tags"}}</h2>
+          <div class = "m-expand-tags js-tag-heading-icon"></div> 
+        </div>
           {{#get "tags" limit="10"}}
-            <ul>
+            <ul class = "js-tag-list" style="display:none">
               {{#foreach tags}}
                 <li>
                   <a href="{{url}}">{{name}}</a>

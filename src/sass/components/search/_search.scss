@@ -43,10 +43,8 @@
 }
 
 .m-search__form {
-  margin-bottom: 30px;
-
   @include respond-to('medium') {
     max-width: 500px;
-    margin: 0 auto 45px;
+    margin: 0 auto 2rem;
   }
 }

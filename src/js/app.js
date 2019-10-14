@@ -30,9 +30,25 @@ $(document).ready(() => {
   const $inputSearch = $('.js-input-search')
   const $searchResults = $('.js-search-results')
   const $searchNoResults = $('.js-no-results')
+  const $tagHeading = $('.js-tag-heading')
+  const $tagHeadingIcon = $('.js-tag-heading-icon')
+  const $tagList = $('.js-tag-list')
 
   let fuse = null
   let submenuIsOpen = false
+  let showFrontpageTags = false;
+
+  function toggleTags() {
+    showFrontpageTags = !showFrontpageTags;
+    if(showFrontpageTags) {
+      $tagHeadingIcon.addClass('active');
+      $tagList.slideToggle();
+    }
+    else {
+      $tagHeadingIcon.removeClass('active');
+      $tagList.slideToggle();
+    }
+  }
 
   function showSubmenu() {
     $header.addClass('submenu-is-active')
@@ -109,6 +125,10 @@ $(document).ready(() => {
 
     return ''
   }
+
+  $tagHeading.click(() => {
+    toggleTags();
+  })
 
   $openMenu.click(() => {
     $menu.addClass('opened')
