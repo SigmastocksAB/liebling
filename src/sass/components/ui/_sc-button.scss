@@ -1,0 +1,45 @@
+.sc-button {
+  $button-radius: 1.5em;
+  $hover-box-shadow: 3px 3px 6px rgba(22,22,22,.05);
+  padding: 0.75em $button-radius;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  border-radius: $button-radius;
+  white-space: nowrap;
+  line-height: 1rem;
+  cursor: pointer; 
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  background-color: var(--primary-subtle-color);
+  border: 2px solid var(--primary-subtle-color);
+  user-select: none;
+  min-width: 9em;
+  box-sizing: border-box;
+  display: inline-block;
+  @include bs(0 2px 4px var(--button-shadow-color-normal));
+
+  span {
+    color: white;
+  }
+
+  &--secondary {
+    background-color: white;
+    color: var(--primary-subtle-color);
+  }
+
+  &:hover {
+    &:not(.sc-button--disabled) {
+      background-color: var(--primary-subtle-color);
+      @include bs(0 4px 8px var(--button-shadow-color-hover));
+      color: white;
+    }
+  }
+
+  &:active {
+    &:not(.sc-button--disabled) {
+      @include bs(0 4px 8px var(--button-shadow-color-hover));
+    }
+  }
+}

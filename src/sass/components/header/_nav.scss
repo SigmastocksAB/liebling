@@ -55,6 +55,26 @@
   }
 }
 
+.m-nav__right {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  a {
+    margin: 0.5rem;
+    @include respond-to('medium') {
+      margin: 0;
+    }
+    &:last-of-type {
+      margin-bottom: 2rem;
+      @include respond-to('medium') {
+        margin-bottom: 0;
+        margin-left: 1rem;
+      }
+    }
+
+  }
+}
+
 .rtl {
   .m-nav__left ul li {
     @include respond-to('medium') {
