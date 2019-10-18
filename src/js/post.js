@@ -23,7 +23,7 @@ function onScrolling() {
 
 function adjustShare(timeout) {
   if (!isMobile('1023px')) {
-    stickybits('.js-sticky', { stickyBitStickyOffset: 100 })
+    stickybits('.js-sticky', { stickyBitStickyOffset: 140 })
     $('body').removeClass('share-menu-displayed')
   } else {
     $('body').addClass('share-menu-displayed')
