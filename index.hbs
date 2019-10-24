@@ -13,7 +13,7 @@ into the {body} of the default.hbs template --}}
   {{!-- Inject styles of the hero image to make it responsive --}}
   {{> hero background=@site.cover_image}}
   <div class="m-hero__content" data-aos="fade-down">
-    <h1 class="m-hero-title bigger">Aktuellt</h1>
+    <h1 class="m-hero-title bigger">{{@site.title}}</h1>
     {{#if @labs.subscribers}}
     <a href="{{@site.url}}/subscribe" class="m-button filled">{{t "Subscribe"}}</a>
     {{/if}}
