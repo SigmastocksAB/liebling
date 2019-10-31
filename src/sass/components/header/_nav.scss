@@ -9,9 +9,15 @@
 
 .m-nav__left {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 
   @include respond-to('medium') {
     margin-bottom: 0;
+  }
+
+  button {
+    margin-left: 35px;
   }
 
   ul {
@@ -60,11 +66,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  .m-icon-button {
-    @include respond-to('medium') {
-      margin-right: 1rem;
-    }
-  }
   a {
     margin: 0.5rem;
     @include respond-to('medium') {
