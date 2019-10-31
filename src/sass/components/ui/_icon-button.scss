@@ -124,7 +124,7 @@
     }
 
     &.slick-prev {
-      right: 52px;
+      left: 16px;
 
       @include respond-to('medium') {
         right: 72px;
