@@ -11,9 +11,11 @@
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   @include respond-to('medium') {
     margin-bottom: 0;
+    justify-content: flex-start;
   }
 
   button {
@@ -35,6 +37,7 @@
       font-size: 1.125rem;
       margin-bottom: 15px;
       font-family: 'sofia-pro', Arial, Helvetica, sans-serif;
+      text-align: center;
 
       @include respond-to('medium') {
         margin-bottom: 0;
