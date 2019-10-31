@@ -1,10 +1,14 @@
 .l-content {
-  padding: 60px 0 20px;
+  padding: 40px 0 20px;
   &.in-post{
+    padding: 60px 0 20px;
     background-color: var(--post-background-color);
+    @include respond-to('medium') {
+      padding: 6.5rem 0 40px;
+    }
   }
 
   @include respond-to('medium') {
-    padding: 6.5rem 0 40px;
+    padding: 60px 0 40px;
   }
 }
