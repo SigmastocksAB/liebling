@@ -8,6 +8,57 @@
   }
 }
 
+.m-tags {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      letter-spacing: 0.2px;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-right: 1rem;
+      margin-bottom: 1rem !important;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      a {
+        color: var(--link-color);
+        display: inline-block;
+        padding: 0.5em 1.25em;
+        border-radius: 10px;
+        @include bs(0 2px 4px var(--button-shadow-color-normal));
+        @include transition(box-shadow .25s cubic-bezier(.02,.01,.47,1));
+        &:hover {
+          @include bs(0 4px 8px var(--button-shadow-color-hover));
+        }
+      }
+    }
+
+  }
+  &.index {
+    h2 {
+      text-align: left;
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+    ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+    }
+  }
+}
+
+.m-tags-heading {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--titles-color);
+}
+
+
 .m-expand-tags {
   position: relative;
   width: 1rem;
