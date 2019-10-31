@@ -17,9 +17,14 @@ This header template is shared across all the pages.
         {{@site.title}}
       </a>
     {{/if}}
-    <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="Open menu">
-      <span class="icon-menu"></span>
-    </button>
+    <div class="m-nav__right">
+      <button class="m-icon-button in-mobile-topbar js-open-search" aria-label="Open search">
+        <span class="icon-search"></span>
+      </button>
+      <button class="m-icon-button in-mobile-topbar js-open-menu" aria-label="Open menu">
+        <span class="icon-menu"></span>
+      </button>
+    </div>
   </div>
 
   <div class="m-menu js-menu">
@@ -35,6 +40,9 @@ This header template is shared across all the pages.
             {{/if}}
           </nav>
           <div class="m-nav__right">
+            <button class="m-icon-button in-menu-main js-open-search" aria-label="Open search">
+              <span class="icon-search"></span>
+            </button>
             <a class = "sc-button sc-button--secondary" href="https://app.sigmastocks.com/sv/users/sign_in">Logga in</a>
             <a class = "sc-button" href="https://app.sigmastocks.com/sv/onboarding/create_user">Skapa konto</a>
           </div>

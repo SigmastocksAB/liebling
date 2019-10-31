@@ -58,7 +58,13 @@
 .m-nav__right {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  .m-icon-button {
+    @include respond-to('medium') {
+      margin-right: 1rem;
+    }
+  }
   a {
     margin: 0.5rem;
     @include respond-to('medium') {
@@ -69,10 +75,6 @@
         margin-left: 1rem;
       }
     }
-  }
-  margin-bottom: 1rem;
-  @include respond-to('medium') {
-    margin-bottom: 0;
   }
 }
 
