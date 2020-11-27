@@ -1,0 +1,4 @@
+<svg id="icon-menu-heart" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <path id="icon_frame_16px" data-name="icon frame 16px" d="M0,0H16V16H0Z" fill="#fff" opacity="0"/>
+  <path id="heart" d="M14.435,32.924a4.273,4.273,0,0,0-5.831.425l-.616.634-.616-.634a4.273,4.273,0,0,0-5.831-.425,4.487,4.487,0,0,0-.309,6.5l6.047,6.244a.98.98,0,0,0,1.416,0l6.047-6.244a4.484,4.484,0,0,0-.306-6.5Z" transform="translate(0.012 -30.967)" fill="#fff"/>
+</svg>
