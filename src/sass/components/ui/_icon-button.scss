@@ -26,6 +26,7 @@
   }
 
   &.in-mobile-topbar {
+    color: var(--header-link-color);
     width: 65px;
     height: 100%;
   }
@@ -38,6 +39,7 @@
     height: 32px;
     font-size: 0.625rem;
     z-index: 2;
+    color: var(--header-link-color);
 
     @include respond-to('medium') {
       display: none !important;
@@ -71,7 +73,7 @@
 
   &.in-menu-main {
     display: none;
-
+    color: var(--header-link-color);
     @include respond-to('medium') {
       display: flex;
       width: 26px;
